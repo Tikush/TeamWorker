@@ -24,8 +24,10 @@ class DetailViewController: UIViewController {
     
     
     @IBAction func onBack(_ sender: Any) {
+        
     }
     @IBAction func onBookmarks(_ sender: Any) {
+        
     }
     
 }

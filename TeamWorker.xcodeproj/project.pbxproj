@@ -31,6 +31,13 @@
 		FA2AA27726935B41008CE0E8 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2AA27626935B41008CE0E8 /* DetailViewController.storyboard */; };
 		FAF99B6F269369B300BC4B4E /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B6D269369B300BC4B4E /* ArticlesViewModel.swift */; };
 		FAF99B70269369B300BC4B4E /* ArticlesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B6E269369B300BC4B4E /* ArticlesDataSource.swift */; };
+		FAF99B782693740C00BC4B4E /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF99B732693740C00BC4B4E /* Onboarding.storyboard */; };
+		FAF99B792693740C00BC4B4E /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B762693740C00BC4B4E /* OnboardingCollectionViewCell.swift */; };
+		FAF99B7A2693740C00BC4B4E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B772693740C00BC4B4E /* OnboardingViewController.swift */; };
+		FAF99B7C2693744900BC4B4E /* OnboardingSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B7B2693744900BC4B4E /* OnboardingSlider.swift */; };
+		FAF99B87269374AC00BC4B4E /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF99B85269374AC00BC4B4E /* Rubik-Medium.ttf */; };
+		FAF99B88269374AC00BC4B4E /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF99B86269374AC00BC4B4E /* Rubik-Regular.ttf */; };
+		FAF99B8B2693759900BC4B4E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B8A2693759900BC4B4E /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +66,13 @@
 		FA2AA27626935B41008CE0E8 /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
 		FAF99B6D269369B300BC4B4E /* ArticlesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
 		FAF99B6E269369B300BC4B4E /* ArticlesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesDataSource.swift; sourceTree = "<group>"; };
+		FAF99B742693740C00BC4B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Onboarding.storyboard; sourceTree = "<group>"; };
+		FAF99B762693740C00BC4B4E /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAF99B772693740C00BC4B4E /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		FAF99B7B2693744900BC4B4E /* OnboardingSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingSlider.swift; sourceTree = "<group>"; };
+		FAF99B85269374AC00BC4B4E /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		FAF99B86269374AC00BC4B4E /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		FAF99B8A2693759900BC4B4E /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,7 @@
 		3D0452A7269358DB0044EC80 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FAF99B712693740C00BC4B4E /* Onboarding */,
 				3D0452A8269358E20044EC80 /* Articles */,
 			);
 			path = Scenes;
@@ -154,6 +169,7 @@
 		630E05C526933BE1003955F1 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				FAF99B7B2693744900BC4B4E /* OnboardingSlider.swift */,
 				630E05C626933C0A003955F1 /* ArticlesResponse.swift */,
 				630E05C826933C0E003955F1 /* Models */,
 			);
@@ -171,6 +187,8 @@
 		630E05C926933D8C003955F1 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				FAF99B892693758E00BC4B4E /* Onboarding */,
+				FAF99B84269374AC00BC4B4E /* Fonts */,
 				630E05CA26933D8C003955F1 /* Network */,
 				630E05CC26933D8C003955F1 /* Extensions */,
 			);
@@ -214,6 +232,33 @@
 				FAF99B6D269369B300BC4B4E /* ArticlesViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAF99B712693740C00BC4B4E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FAF99B772693740C00BC4B4E /* OnboardingViewController.swift */,
+				FAF99B762693740C00BC4B4E /* OnboardingCollectionViewCell.swift */,
+				FAF99B732693740C00BC4B4E /* Onboarding.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		FAF99B84269374AC00BC4B4E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FAF99B85269374AC00BC4B4E /* Rubik-Medium.ttf */,
+				FAF99B86269374AC00BC4B4E /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FAF99B892693758E00BC4B4E /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FAF99B8A2693759900BC4B4E /* Onboarding.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +328,11 @@
 				3DF0F44926933A120002AEF7 /* LaunchScreen.storyboard in Resources */,
 				3DF0F44626933A120002AEF7 /* Assets.xcassets in Resources */,
 				3D0452AD269359690044EC80 /* ArticlesViewController.storyboard in Resources */,
+				FAF99B88269374AC00BC4B4E /* Rubik-Regular.ttf in Resources */,
+				FAF99B782693740C00BC4B4E /* Onboarding.storyboard in Resources */,
 				3D0452B226935C9F0044EC80 /* ArticlesCell.xib in Resources */,
 				3DF0F44426933A0F0002AEF7 /* Main.storyboard in Resources */,
+				FAF99B87269374AC00BC4B4E /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +346,10 @@
 				DC90A58E2693510700F7C2E4 /* UIView+Extension.swift in Sources */,
 				630E05D626933E0F003955F1 /* UICollectionView+Extensions.swift in Sources */,
 				3D0452B126935C9F0044EC80 /* ArticlesCell.swift in Sources */,
+				FAF99B8B2693759900BC4B4E /* Onboarding.swift in Sources */,
+				FAF99B7C2693744900BC4B4E /* OnboardingSlider.swift in Sources */,
 				630E05DD26934815003955F1 /* UITableViewCell+Extension.swift in Sources */,
+				FAF99B7A2693740C00BC4B4E /* OnboardingViewController.swift in Sources */,
 				3D0452AB2693595E0044EC80 /* ArticlesViewController.swift in Sources */,
 				FAF99B6F269369B300BC4B4E /* ArticlesViewModel.swift in Sources */,
 				630E05CF26933D8C003955F1 /* NetworkManager.swift in Sources */,
@@ -312,6 +363,7 @@
 				3DF0F43F26933A0F0002AEF7 /* SceneDelegate.swift in Sources */,
 				630E05C726933C0A003955F1 /* ArticlesResponse.swift in Sources */,
 				FA2AA27326935A6B008CE0E8 /* DetailViewController.swift in Sources */,
+				FAF99B792693740C00BC4B4E /* OnboardingCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +384,14 @@
 				3DF0F44826933A120002AEF7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF99B732693740C00BC4B4E /* Onboarding.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF99B742693740C00BC4B4E /* Base */,
+			);
+			name = Onboarding.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
