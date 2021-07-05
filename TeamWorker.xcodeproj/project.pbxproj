@@ -21,6 +21,7 @@
 		630E05DB269347EB003955F1 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05DA269347EB003955F1 /* UITableView+Extension.swift */; };
 		630E05DD26934815003955F1 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */; };
 		DC90A58C26934F3400F7C2E4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DC90A58B26934F3400F7C2E4 /* Kingfisher */; };
+		DC90A58E2693510700F7C2E4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90A58D2693510700F7C2E4 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		630E05D326933E0F003955F1 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
 		630E05DA269347EB003955F1 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		DC90A58D2693510700F7C2E4 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		630E05CC26933D8C003955F1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DC90A58D2693510700F7C2E4 /* UIView+Extension.swift */,
 				630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */,
 				630E05DA269347EB003955F1 /* UITableView+Extension.swift */,
 				630E05D226933E0E003955F1 /* UICollectionView+Extensions.swift */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC90A58E2693510700F7C2E4 /* UIView+Extension.swift in Sources */,
 				630E05D626933E0F003955F1 /* UICollectionView+Extensions.swift in Sources */,
 				630E05DD26934815003955F1 /* UITableViewCell+Extension.swift in Sources */,
 				630E05CF26933D8C003955F1 /* NetworkManager.swift in Sources */,
