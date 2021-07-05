@@ -88,7 +88,9 @@ class OnboardingViewController: UIViewController {
 //            აქ უნდა დაიწეროს შემდეგ გვერდზე გადასასვლელი კოდი როცა ონბორდინგი დასრულდება
             
             print("next")
-            
+            let sb = UIStoryboard(name: "ArticlesViewController", bundle: nil)
+            let vc = sb.instantiateViewController(identifier: "ArticlesViewController")
+            self.navigationController?.pushViewController(vc, animated: true)
             
         } else {
             
