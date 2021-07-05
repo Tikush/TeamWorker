@@ -24,13 +24,13 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tobias Van" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iQ4-4y-cA3">
-                        <rect key="frame" x="58.000000000000007" y="0.0" width="78.666666666666686" height="19.666666666666668"/>
+                        <rect key="frame" x="58.000000000000007" y="0.0" width="78.666666666666686" height="19.333333333333332"/>
                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnF-cm-Hjv">
-                        <rect key="frame" x="58" y="24.666666666666668" width="31" height="14.333333333333332"/>
+                        <rect key="frame" x="58" y="24.333333333333332" width="31" height="14.333333333333332"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -64,7 +64,7 @@
                     <constraint firstItem="pto-ZH-le8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="SW8-yO-zt2"/>
                     <constraint firstItem="KH5-7E-Nqv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="aGV-at-2lw"/>
                     <constraint firstAttribute="bottom" secondItem="pto-ZH-le8" secondAttribute="bottom" constant="25" id="eDZ-fS-8D4"/>
-                    <constraint firstItem="pto-ZH-le8" firstAttribute="top" secondItem="AnF-cm-Hjv" secondAttribute="bottom" constant="88" id="glD-1F-I0h"/>
+                    <constraint firstItem="pto-ZH-le8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="AnF-cm-Hjv" secondAttribute="bottom" constant="20" id="glD-1F-I0h"/>
                     <constraint firstItem="KH5-7E-Nqv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ibB-iM-syx"/>
                     <constraint firstItem="iWr-5C-55l" firstAttribute="centerY" secondItem="KH5-7E-Nqv" secondAttribute="centerY" id="m3h-y0-arN"/>
                     <constraint firstItem="AnF-cm-Hjv" firstAttribute="leading" secondItem="KH5-7E-Nqv" secondAttribute="trailing" constant="14" id="msL-AA-hTU"/>
@@ -73,6 +73,13 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="authorLabel" destination="iQ4-4y-cA3" id="nXU-uj-WDR"/>
+                <outlet property="bigPicture" destination="iPc-Mj-Nh9" id="c4x-nA-3X1"/>
+                <outlet property="context" destination="BtS-Vs-MR8" id="n3q-zr-wA4"/>
+                <outlet property="dateLabel" destination="AnF-cm-Hjv" id="mXx-7g-rl2"/>
+                <outlet property="pictuere" destination="KH5-7E-Nqv" id="48E-tY-JBF"/>
+            </connections>
             <point key="canvasLocation" x="125.36231884057972" y="110.15625"/>
         </tableViewCell>
     </objects>
