@@ -21,6 +21,8 @@
 		630E05DB269347EB003955F1 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05DA269347EB003955F1 /* UITableView+Extension.swift */; };
 		630E05DD26934815003955F1 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */; };
 		63C02BC7269351100091ECF5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 63C02BC6269351100091ECF5 /* Kingfisher */; };
+		63D8EBF426935D1D00FA9F59 /* ArticlesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EBF226935D1D00FA9F59 /* ArticlesDataSource.swift */; };
+		63D8EBF526935D1D00FA9F59 /* ArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8EBF326935D1D00FA9F59 /* ArticlesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		630E05D326933E0F003955F1 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
 		630E05DA269347EB003955F1 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		63D8EBF226935D1D00FA9F59 /* ArticlesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesDataSource.swift; sourceTree = "<group>"; };
+		63D8EBF326935D1D00FA9F59 /* ArticlesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 		63C02BCA2693532D0091ECF5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				63D8EBF226935D1D00FA9F59 /* ArticlesDataSource.swift */,
+				63D8EBF326935D1D00FA9F59 /* ArticlesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -275,10 +281,12 @@
 				630E05CF26933D8C003955F1 /* NetworkManager.swift in Sources */,
 				630E05DB269347EB003955F1 /* UITableView+Extension.swift in Sources */,
 				630E05C426933BDC003955F1 /* Articles.swift in Sources */,
+				63D8EBF526935D1D00FA9F59 /* ArticlesViewModel.swift in Sources */,
 				3DF0F44126933A0F0002AEF7 /* ViewController.swift in Sources */,
 				630E05D726933E0F003955F1 /* UICollectionViewCell+Extension.swift in Sources */,
 				3DF0F43D26933A0F0002AEF7 /* AppDelegate.swift in Sources */,
 				3DF0F43F26933A0F0002AEF7 /* SceneDelegate.swift in Sources */,
+				63D8EBF426935D1D00FA9F59 /* ArticlesDataSource.swift in Sources */,
 				630E05C726933C0A003955F1 /* ArticlesResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
