@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		630E05D726933E0F003955F1 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05D326933E0F003955F1 /* UICollectionViewCell+Extension.swift */; };
 		630E05DB269347EB003955F1 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05DA269347EB003955F1 /* UITableView+Extension.swift */; };
 		630E05DD26934815003955F1 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */; };
+		63C02BC7269351100091ECF5 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 63C02BC6269351100091ECF5 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,27 +46,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C02BC7269351100091ECF5 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DE79B7126934EF40028A76D /* Presantation */ = {
-			isa = PBXGroup;
-			children = (
-				3DE79B7226934EFF0028A76D /* Scenes */,
-			);
-			path = Presantation;
-			sourceTree = "<group>";
-		};
-		3DE79B7226934EFF0028A76D /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
 		3DF0F43026933A0F0002AEF7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +72,6 @@
 		3DF0F43B26933A0F0002AEF7 /* TeamWorker */ = {
 			isa = PBXGroup;
 			children = (
-				3DE79B7126934EF40028A76D /* Presantation */,
 				630E05C926933D8C003955F1 /* Infrastructure */,
 				630E05C526933BE1003955F1 /* Domain */,
 				3DF0F43C26933A0F0002AEF7 /* AppDelegate.swift */,
@@ -160,6 +146,9 @@
 			dependencies = (
 			);
 			name = TeamWorker;
+			packageProductDependencies = (
+				63C02BC6269351100091ECF5 /* Kingfisher */,
+			);
 			productName = TeamWorker;
 			productReference = 3DF0F43926933A0F0002AEF7 /* TeamWorker.app */;
 			productType = "com.apple.product-type.application";
@@ -187,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 3DF0F43026933A0F0002AEF7;
+			packageReferences = (
+				63C02BC5269351100091ECF5 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 3DF0F43A26933A0F0002AEF7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -423,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		63C02BC5269351100091ECF5 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		63C02BC6269351100091ECF5 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 63C02BC5269351100091ECF5 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DF0F43126933A0F0002AEF7 /* Project object */;
 }
