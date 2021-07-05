@@ -51,45 +51,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DE79B6C269349210028A76D /* Presntation */ = {
-			isa = PBXGroup;
-			children = (
-				3DE79B6D2693492B0028A76D /* Scenes */,
-			);
-			path = Presntation;
-			sourceTree = "<group>";
-		};
-		3DE79B6D2693492B0028A76D /* Scenes */ = {
-			isa = PBXGroup;
-			children = (
-				3DE79B6E269349380028A76D /* Articles */,
-			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		3DE79B6E269349380028A76D /* Articles */ = {
-			isa = PBXGroup;
-			children = (
-				3DE79B70269349480028A76D /* View Model */,
-				3DE79B6F269349400028A76D /* View */,
-			);
-			path = Articles;
-			sourceTree = "<group>";
-		};
-		3DE79B6F269349400028A76D /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		3DE79B70269349480028A76D /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Model";
-			sourceTree = "<group>";
-		};
 		3DF0F43026933A0F0002AEF7 = {
 			isa = PBXGroup;
 			children = (
@@ -109,7 +70,6 @@
 		3DF0F43B26933A0F0002AEF7 /* TeamWorker */ = {
 			isa = PBXGroup;
 			children = (
-				3DE79B6C269349210028A76D /* Presntation */,
 				630E05C926933D8C003955F1 /* Infrastructure */,
 				630E05C526933BE1003955F1 /* Domain */,
 				3DF0F43C26933A0F0002AEF7 /* AppDelegate.swift */,
