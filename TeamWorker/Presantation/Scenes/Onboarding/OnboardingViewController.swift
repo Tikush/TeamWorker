@@ -78,6 +78,9 @@ class OnboardingViewController: UIViewController {
     @IBAction func onTapSkip(_ sender: Any) {
         
 //        აქ უნდა დაიწეროს შემდეგ გვერდზე გადასასვლელი კოდი როცა მომხმარებელი დააჭერს SKIP
+        let sb = UIStoryboard(name: "ArticlesViewController", bundle: nil)
+        let vc = sb.instantiateViewController(identifier: "ArticlesViewController")
+        self.navigationController?.pushViewController(vc, animated: true)
         
     }
     

@@ -47,6 +47,5 @@ class ArticlesDataSource: NSObject, UITableViewDataSource {
 extension ArticlesDataSource: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 
-            
     }
 }
