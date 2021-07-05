@@ -41,14 +41,22 @@ class DetailViewController: UIViewController {
     
     
     @IBAction func onBack(_ sender: Any) {
-        
+        self.navigationController?.popViewController(animated: true)
         
     }
     @IBAction func onBookmarks(_ sender: Any) {
-        
+     alertComingSoon()
         
     }
     
+    private func alertComingSoon() {
+        let alert = UIAlertController(title: "Alert", message: "Coming Soon" , preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Close", style: .cancel, handler: nil))
+        self.present(alert, animated: true)
+    }
+    
 }
+
+
 
 

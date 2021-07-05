@@ -13,7 +13,6 @@ class ArticlesDataSource: NSObject, UITableViewDataSource {
     private var viewModel: ArticlesViewModelProtocol!
     private var navController: UINavigationController!
     private var articlesList = [Articles]()
-
     
     init(with tableView: UITableView, viewModel: ArticlesViewModel, navController: UINavigationController) {
         super.init()
@@ -42,7 +41,6 @@ class ArticlesDataSource: NSObject, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.deque(ArticlesCell.self, for: indexPath)
         cell.configureCell(with: articlesList[indexPath.row]) 
-        
         return cell
     }
 }
@@ -56,3 +54,6 @@ extension ArticlesDataSource: UITableViewDelegate {
         
     }
 }
+
+    
+

@@ -92,6 +92,7 @@
 		3D0452A7269358DB0044EC80 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				FA2AA26F26935A4A008CE0E8 /* Detail */,
 				FAF99B712693740C00BC4B4E /* Onboarding */,
 				3D0452A8269358E20044EC80 /* Articles */,
 			);
@@ -153,7 +154,6 @@
 		3DF0F43B26933A0F0002AEF7 /* TeamWorker */ = {
 			isa = PBXGroup;
 			children = (
-				FA2AA26F26935A4A008CE0E8 /* Detail */,
 				3DE79B7126934EF40028A76D /* Presantation */,
 				630E05C926933D8C003955F1 /* Infrastructure */,
 				630E05C526933BE1003955F1 /* Domain */,

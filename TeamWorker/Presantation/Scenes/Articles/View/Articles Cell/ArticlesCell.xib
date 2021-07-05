@@ -38,6 +38,9 @@
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWr-5C-55l">
                         <rect key="frame" x="495" y="3" width="4" height="22"/>
                         <state key="normal" image="icn_alert"/>
+                        <connections>
+                            <action selector="onMore:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="J5F-an-T9S"/>
+                        </connections>
                     </button>
                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="pto-ZH-le8">
                         <rect key="frame" x="16" y="127" width="483" height="245"/>

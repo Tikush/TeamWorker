@@ -7,14 +7,15 @@
 
 import UIKit
 
+
 class ArticlesCell: UITableViewCell {
 
     @IBOutlet weak var pictuere: UIImageView!
     @IBOutlet weak var authorLabel: UILabel!
-    @IBOutlet weak var bigPicture: UIImageView!
-    
+    @IBOutlet weak var bigPicture: UIImageView!    
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var context: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         self.bigPicture.layer.cornerRadius = 10
@@ -33,4 +34,5 @@ class ArticlesCell: UITableViewCell {
         self.dateLabel.text = item.publishedAt
         self.context.text = item.content
     }
+
 }
