@@ -39,12 +39,14 @@ class ArticlesDataSource: NSObject, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.deque(ArticlesCell.self, for: indexPath)
 //        cell.configure(with: articlesList[indexPath.row])
+        
         return cell
     }
 }
 
 extension ArticlesDataSource: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+
+            
     }
 }

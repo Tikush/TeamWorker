@@ -38,6 +38,7 @@
 		FAF99B87269374AC00BC4B4E /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF99B85269374AC00BC4B4E /* Rubik-Medium.ttf */; };
 		FAF99B88269374AC00BC4B4E /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAF99B86269374AC00BC4B4E /* Rubik-Regular.ttf */; };
 		FAF99B8B2693759900BC4B4E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B8A2693759900BC4B4E /* Onboarding.swift */; };
+		FAF99B8D26937DFD00BC4B4E /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF99B8C26937DFD00BC4B4E /* UIImageView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 		FAF99B85269374AC00BC4B4E /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		FAF99B86269374AC00BC4B4E /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		FAF99B8A2693759900BC4B4E /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		FAF99B8C26937DFD00BC4B4E /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				630E05DA269347EB003955F1 /* UITableView+Extension.swift */,
 				630E05D226933E0E003955F1 /* UICollectionView+Extensions.swift */,
 				630E05D326933E0F003955F1 /* UICollectionViewCell+Extension.swift */,
+				FAF99B8C26937DFD00BC4B4E /* UIImageView + Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			files = (
 				DC90A58E2693510700F7C2E4 /* UIView+Extension.swift in Sources */,
 				630E05D626933E0F003955F1 /* UICollectionView+Extensions.swift in Sources */,
+				FAF99B8D26937DFD00BC4B4E /* UIImageView + Extension.swift in Sources */,
 				3D0452B126935C9F0044EC80 /* ArticlesCell.swift in Sources */,
 				FAF99B8B2693759900BC4B4E /* Onboarding.swift in Sources */,
 				FAF99B7C2693744900BC4B4E /* OnboardingSlider.swift in Sources */,
