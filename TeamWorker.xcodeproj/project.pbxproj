@@ -23,6 +23,7 @@
 		630E05DD26934815003955F1 /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */; };
 		DC90A58C26934F3400F7C2E4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DC90A58B26934F3400F7C2E4 /* Kingfisher */; };
 		DC90A58E2693510700F7C2E4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90A58D2693510700F7C2E4 /* UIView+Extension.swift */; };
+		DC90A5952693539E00F7C2E4 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC90A5942693539E00F7C2E4 /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		630E05DA269347EB003955F1 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		630E05DC26934814003955F1 /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
 		DC90A58D2693510700F7C2E4 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DC90A5942693539E00F7C2E4 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		630E05C926933D8C003955F1 /* Infrastructure */ = {
 			isa = PBXGroup;
 			children = (
+				DC90A5932693539000F7C2E4 /* Managers */,
 				630E05CA26933D8C003955F1 /* Network */,
 				630E05CC26933D8C003955F1 /* Extensions */,
 			);
@@ -134,6 +137,14 @@
 				630E05D326933E0F003955F1 /* UICollectionViewCell+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC90A5932693539000F7C2E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				DC90A5942693539E00F7C2E4 /* Onboarding.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 				630E05C426933BDC003955F1 /* Articles.swift in Sources */,
 				3DF0F44126933A0F0002AEF7 /* ViewController.swift in Sources */,
 				3DE3E8D82693515F000DC15A /* TableViewCell.swift in Sources */,
+				DC90A5952693539E00F7C2E4 /* Onboarding.swift in Sources */,
 				630E05D726933E0F003955F1 /* UICollectionViewCell+Extension.swift in Sources */,
 				3DF0F43D26933A0F0002AEF7 /* AppDelegate.swift in Sources */,
 				3DF0F43F26933A0F0002AEF7 /* SceneDelegate.swift in Sources */,
