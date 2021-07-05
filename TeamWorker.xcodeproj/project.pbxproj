@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DE3E8D82693515F000DC15A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE3E8D72693515F000DC15A /* TableViewCell.swift */; };
 		3DF0F43D26933A0F0002AEF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0F43C26933A0F0002AEF7 /* AppDelegate.swift */; };
 		3DF0F43F26933A0F0002AEF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0F43E26933A0F0002AEF7 /* SceneDelegate.swift */; };
 		3DF0F44126933A0F0002AEF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF0F44026933A0F0002AEF7 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DE3E8D72693515F000DC15A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		3DF0F43926933A0F0002AEF7 /* TeamWorker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeamWorker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DF0F43C26933A0F0002AEF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DF0F43E26933A0F0002AEF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				630E05CB26933D8C003955F1 /* NetworkManager.swift */,
+				3DE3E8D72693515F000DC15A /* TableViewCell.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				630E05DB269347EB003955F1 /* UITableView+Extension.swift in Sources */,
 				630E05C426933BDC003955F1 /* Articles.swift in Sources */,
 				3DF0F44126933A0F0002AEF7 /* ViewController.swift in Sources */,
+				3DE3E8D82693515F000DC15A /* TableViewCell.swift in Sources */,
 				630E05D726933E0F003955F1 /* UICollectionViewCell+Extension.swift in Sources */,
 				3DF0F43D26933A0F0002AEF7 /* AppDelegate.swift in Sources */,
 				3DF0F43F26933A0F0002AEF7 /* SceneDelegate.swift in Sources */,
