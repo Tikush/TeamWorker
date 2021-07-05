@@ -15,7 +15,6 @@ class ArticlesViewController: UIViewController {
     // MARK: - Life Cyrcles
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
     }
 }
