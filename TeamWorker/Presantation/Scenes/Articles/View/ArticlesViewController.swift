@@ -29,7 +29,7 @@ class ArticlesViewController: UIViewController {
 
     private func configureViewModel() {
         viewModel = ArticlesViewModel()
-        dataSource = ArticlesDataSource(with: tableView, viewModel: viewModel as! ArticlesViewModel)
+        dataSource = ArticlesDataSource(with: tableView, viewModel: viewModel as! ArticlesViewModel, navController: navigationController!)
         
         dataSource.refresh()
     }

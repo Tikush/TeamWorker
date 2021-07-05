@@ -15,6 +15,7 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var authorImage: UIImageView!
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var image: UIImageView!
+    
     var article: Articles?
     
     override func viewDidLoad() {
