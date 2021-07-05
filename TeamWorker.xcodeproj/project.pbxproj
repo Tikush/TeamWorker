@@ -119,6 +119,8 @@
 		630E05CA26933D8C003955F1 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				63D8EBF226935D1D00FA9F59 /* ArticlesDataSource.swift */,
+				63D8EBF326935D1D00FA9F59 /* ArticlesViewModel.swift */,
 				630E05CB26933D8C003955F1 /* NetworkManager.swift */,
 			);
 			path = Network;
@@ -155,8 +157,6 @@
 		63C02BCA2693532D0091ECF5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				63D8EBF226935D1D00FA9F59 /* ArticlesDataSource.swift */,
-				63D8EBF326935D1D00FA9F59 /* ArticlesViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
