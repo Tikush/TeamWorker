@@ -15,18 +15,22 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var authorImage: UIImageView!
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var image: UIImageView!
+    var article: Articles?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        configure()
         
     }
     
-    func configure(with item: Articles ) {
-        self.labelContent.text = item.content
-        self.labelDate.text = item.publishedAt
-        self.labelAuthorName.text = item.author
-        self.labelTitle.text = item.title
-        let imageURL = URL(string: item.urlToImage ?? "")
+    func configure() {
+        guard let article = article else {return}
+        
+        self.labelContent.text = article.content
+        self.labelDate.text = article.publishedAt
+        self.labelAuthorName.text = article.author
+        self.labelTitle.text = article.title
+        let imageURL = URL(string: article.urlToImage ?? "")
         image.kf.setImage(with: imageURL)
         authorImage.image = UIImage(named: "empty_avatar")
         authorImage.makeRounded()
